@@ -1,10 +1,10 @@
 /*  ---------------------------------------------------
     Template Name: Ogani
     Description:  Ogani eCommerce  HTML Template
-    Author: Colorlib
-    Author URI: https://colorlib.com
+    Author: E-UMKM Ketintang
+    Author URI: https://E-UMKM Ketintang.com
     Version: 1.0
-    Created: Colorlib
+    Created: E-UMKM Ketintang
 ---------------------------------------------------------  */
 
 'use strict';
