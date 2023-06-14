@@ -83,7 +83,6 @@ const ProductList = () => {
 };
 
 export default ProductList;
-
 if (document.getElementById("product-list")) {
     ReactDOM.render(<ProductList />, document.getElementById("product-list"));
 }

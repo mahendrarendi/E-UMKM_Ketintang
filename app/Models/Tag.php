@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Tag extends Model
 {
     use HasFactory,Sluggable;
-
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
      /**

@@ -19,7 +19,6 @@ class Payment extends Model
 	public const EXPIRY_DURATION = 1;
 	public const EXPIRY_UNIT = 'days';
 	  
-
 	public const CHALLENGE = 'challenge';
 	public const SUCCESS = 'success';
 	public const SETTLEMENT = 'settlement';

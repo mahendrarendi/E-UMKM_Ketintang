@@ -24,7 +24,6 @@ class General
 			$result .= str_repeat($roman, $matches);
 			$integer = $integer % $value;
 		}
-
 		return $result;
 	}
 }

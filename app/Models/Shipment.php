@@ -10,7 +10,6 @@ class Shipment extends Model
     use HasFactory;
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
-
     public const PENDING = 'pending';
 	public const SHIPPED = 'shipped';
 

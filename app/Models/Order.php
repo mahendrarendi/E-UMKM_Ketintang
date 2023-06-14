@@ -16,7 +16,6 @@ class Order extends Model
 
     public const PAID = 'paid';
 	public const UNPAID = 'unpaid';
-
 	public const CREATED = 'created';
 	public const CONFIRMED = 'confirmed';
 	public const DELIVERED = 'delivered';

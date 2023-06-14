@@ -27,6 +27,7 @@ class CategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    
     public function create()
     {
         $categories = Category::whereNull('category_id')->pluck('name', 'id');

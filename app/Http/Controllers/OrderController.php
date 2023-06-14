@@ -97,7 +97,6 @@ class OrderController extends Controller
 			];
 
 			$order = Order::create($orderParams);
-
 			$cartItems = \Cart::getContent();
 
 			if ($order && $cartItems) {

@@ -12,7 +12,6 @@ class ShopController extends Controller
     {
         $cartTotal = \Cart::getTotal();
         $cartCount = \Cart::getContent()->count();
-
         return view('frontend.shop.index', compact('cartTotal', 'cartCount'));
     }
 

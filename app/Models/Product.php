@@ -21,6 +21,7 @@ class Product extends Model implements HasMedia
      *
      * @return array
      */
+    
     public function sluggable(): array
     {
         return [

@@ -36,6 +36,7 @@ const Checkout = () => {
             }
             setLoading(false);
         });
+        
         axios.get("/api/users").then((res) => {
             if (res.status === 200) {
                 if (res.data.users.province_id != null) {

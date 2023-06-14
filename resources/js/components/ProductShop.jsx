@@ -107,6 +107,7 @@ const ProductShop = () => {
                     </div>
                 </div>
             </div>
+            
             <div className="row">
                 {loading ? (
                     <h3>Loading...</h3>

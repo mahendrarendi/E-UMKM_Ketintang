@@ -18,7 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
 // Route::middleware('sessions')->group(function () {
 //     Route::get('products', [\App\Http\Controllers\HomeController::class, 'getProducts']);
 //     Route::post('carts', [\App\Http\Controllers\CartController::class, 'store']);

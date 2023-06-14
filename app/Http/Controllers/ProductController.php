@@ -24,7 +24,6 @@ class ProductController extends Controller
     }
 
     public function getProductDetail(Product $product){
-
         return response()->json([
             'status' => 200,
             'product' => $product,

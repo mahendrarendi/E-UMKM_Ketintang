@@ -10,7 +10,6 @@ trait ImageUploadingTrait
     {
         $path = storage_path('tmp/uploads');
 
-    
         if (!file_exists($path)) {
             mkdir($path, 0755, true);
         }

@@ -49,7 +49,6 @@ class Controller extends BaseController
 	protected function rajaOngkirRequest($resource, $params = [], $method = 'GET')
 	{
 		$client = new \GuzzleHttp\Client();
-
 		$headers = ['key' => $this->rajaOngkirApiKey];
 		$requestParams = [
 			'headers' => $headers,

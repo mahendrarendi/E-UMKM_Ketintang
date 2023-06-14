@@ -18,7 +18,6 @@ class OngkirController extends Controller
     public function shippingCost(Request $request)
 	{
 		$items = \Cart::getContent();
-
         $totalWeight = 0;
 		foreach ($items as $item) {
 			$totalWeight += ($item->quantity * $item->associatedModel->weight);
