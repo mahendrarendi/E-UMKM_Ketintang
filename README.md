@@ -9,7 +9,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/ecommerce-youtube.git project-name
+  git clone https://github.com/mahendrarendi/E-UMKM_Ketintang.git
 ```
 
 Go to the project directory
@@ -21,7 +21,7 @@ Go to the project directory
 -   Copy .env.example file to .env and edit database credentials there
 
 ```bash
-    composer install
+    composer update
 ```
 
 ```bash
